@@ -1,0 +1,15 @@
+.search input{
+    width: 52vw;
+    height: 38px; /* adjust to match the height of the search icon */
+    padding: 0 10px; /* adjust to your desired padding */
+    font-size: 10px;
+  }
+
+  .search-icon{
+    background-color: #F3A847;
+    color: black;
+  }
+
+  .nav-dropdown{
+    color: white;
+  }
