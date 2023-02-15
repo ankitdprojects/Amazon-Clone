@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from "react-redux";
-import { cartActions } from '../store/cartSlice';
+import { cartActions } from '../Store/CartSlice.jsx';
 import { Button } from 'react-bootstrap';
 const ProductContainer = ({ name, id, imgURL, price }) => {
     const dispatch = useDispatch();
