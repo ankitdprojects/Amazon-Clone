@@ -13,7 +13,7 @@ import { auth } from '../Config/Config';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { cartActions } from "../store/cartSlice";
+import { cartActions } from "../Store/CartSlice.jsx";
 import { useNavigate } from 'react-router-dom';
 
 function Header() {
